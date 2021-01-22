@@ -12,4 +12,10 @@ git remote add origin https://github.com/yujishimizu0123/jx.git<br>
 git push origin master<br>
 <br>
 # Split command 80M
-split -b 80000000 file.zip<br>
+split -b 80000000 file.zip file.zip.<br>
+
+# get data
+git clone https://github.com/yujishimizu0123/jx.git
+
+# Combine
+cat file.zip.a* >> file.zip
