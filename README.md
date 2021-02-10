@@ -17,6 +17,7 @@ git push origin master<br>
 split -b 80000000 file.zip file.zip.<br>
 <br>
 # get data
+git config --global http.sslVerify false
 git clone https://github.com/yujishimizu0123/jx.git
 <br>
 # Combine
